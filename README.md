@@ -1,6 +1,9 @@
 ## Project Overview
 This project simulates a network designed for a small law firm. It implements a collapsed-core architecture, focusing on logical VLAN segmentation, high availability at the routing layer by using HSRP, and strict access control lists (ACL) to isolate internal department from the guest network. 
 
+## Reference Topology
+![Network Topology](./topology.png)
+
 
 ## Physical Topology
 - Core/Distribution: 2x Layer 3 Switches (Multi-SW1, Multi-SW2)
